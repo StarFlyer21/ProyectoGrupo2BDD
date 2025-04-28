@@ -6,5 +6,5 @@ BEGIN
   IF v_top_rooms.COUNT < 5 THEN
     v_top_rooms.EXTEND;
     v_top_rooms(3) := 20002;
-  END IF;
+  END IF;
 END;
